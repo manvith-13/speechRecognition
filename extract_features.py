@@ -18,6 +18,7 @@ emotion_map = {
     '08': 'surprised'
 }
 
+
 def extract_features(file_path):
     """Extract MFCC features from an audio file."""
     signal, sr = librosa.load(file_path, sr=22050)
