@@ -9,7 +9,7 @@ DATA_PATH = "data/ravdess"
 # Emotion labels mapping (from RAVDESS filename convention)
 emotion_map = {
     '01': 'neutral',
-    '02': 'calm',
+    '02': 'calm ',
     '03': 'happy',
     '04': 'sad',
     '05': 'angry',
